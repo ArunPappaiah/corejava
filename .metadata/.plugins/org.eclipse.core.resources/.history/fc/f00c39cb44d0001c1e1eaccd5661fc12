@@ -1,0 +1,16 @@
+package edu.lessons.threads;
+
+public class TestRunnableThreads {
+
+	public static void main(String[] args) {
+		
+
+	}
+    //Runnable Thread
+	public static void runningMultiThreads() {
+		try {
+			Thread t =Thread.currentThread();
+			System.out.println("MainTh ID :"+t.getId());
+		}
+	}
+}
