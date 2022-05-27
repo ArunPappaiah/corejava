@@ -23,9 +23,7 @@ public class Storing_file {
 		ps.setCharacterStream(2,fr,(int)f.length());  
 		int i=ps.executeUpdate();  
 		System.out.println(i+" records affected");  
-		              
 		con.close();  
-		              
 		}catch (Exception e) {e.printStackTrace();}  
 		}  
 }
