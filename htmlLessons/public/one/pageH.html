@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Input Elements</title>
+</head>
+<body>
+    <div>
+        <div>
+            <label for='year'> Years of Experience: <input name='year'
+                id='year' type='number' step=0.05 min=5 value=35>
+            </label>
+        </div>
+        <div>
+            <label for='year'> Age Range: <input name='age' id='age'
+                type='range' step=1 maxlength=3 min=22 max=30 value=23 required>
+            </label>
+        </div>
+        <div>
+            <label for='year'> Phone Number: <input name='phone'
+                id='phone' type='tel' required pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
+                placeholder=123-456-7890>
+
+            </label>
+        </div>
+    </div>
+    <div>
+        <input name='course' id='course' type="checkbox" check=true required
+            value="computer science"> <input name='course' id='course'
+            type="checkbox" required value="science"> <input
+            name='course' id='course' type="checkbox" required value="maths">
+    </div>
+    <label for='secret'> hidden content: <input type='hidden'
+        name='secret' value='password'>
+    </label>
+    </div>
+    <div>
+        <label for='url'> Url: <input type='url' name='url'
+            value='www.google.com'>
+        </label>
+    </div>
+    <div>
+        <label for='listOfFruits'> <select name='listOfFruits'
+            title:'Select fruit'>
+                <option>Select fruit</option>
+                <option>Apple</option>
+                <option>Orange</option>
+                <option>Mango</option>
+                <optgroup label="bananas">
+                    <option>Red banana</option>
+                    <option>Yellow banana</option>
+                    <option>Green banana</option>
+                </optgroup>
+        </select>
+        </label>
+    </div>
+    <div>
+    <label for='comments'>
+    <textarea name="comments" cols=50 rows=5></textarea>
+    </label>
+    </div>
+    <div>
+    <input type='submit' value='click me!'>
+    <input type='reset' value='reset'>
+    <input type='image' alt='close' name='close' src='../public/images/close.jpg' width=25 height=25>
+    </div>
+</body>
+</html>

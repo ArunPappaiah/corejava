@@ -20,7 +20,6 @@ public class Result extends HttpServlet {
      */
     public Result() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
